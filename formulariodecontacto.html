@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cabecinha | Ilustraciones & Diseño</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spartan">
+    <link rel="stylesheet" href="estilosformulario.css" />
+</head>
+
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <nav class="menu">
+                <a href="/">Home</a>
+                <a href="/ups">Sobre Mi</a>
+                <a href="/ilustraciones">Trabajos</a>
+            </nav>
+        </header>
+    </div>
+
+    <h1 class="titulo">Contáctate!</h1>
+
+    <main class="form">
+        <form id="myForm">
+            <form method="POST" action="http://localhost:3000/contacto"></form>
+            <fieldset>
+                <legend>Formulario:</legend>
+                <input id="name" type="text" name="name" placeholder="Nombre">
+                <input id="lastName" type="text" name="lastName" placeholder="Apellido">
+                <input id="email" type="text" name="email" placeholder="Correo electrónico">
+                <textarea name="message" rows="10" cols="30"></textarea>
+                <input type="button" onclick="myFunction()" value="Enviar formulario">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <nav class="menu">
+            <a href="https://www.instagram.com/cabecinhagram/" target="_blank">@cabecinhagram</a>
+            <a href="#">cabecinhailustraciones@gmail.com</a>
+        </nav>
+    </footer>
+    <script src="./javaformulario.js"></script>
+</body>
