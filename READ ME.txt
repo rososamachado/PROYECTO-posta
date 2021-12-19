@@ -1,0 +1,61 @@
+TERCER ENTREGA DEL CURSO FULL STACK DEVELOPER
+
+Proyecto FRONTEND:
+
+Los cambios que se generaron para esta entrega fueron:
+- Migración del sitio web a REACT.
+
+-- INSTRUCCIONES PARA INICIAR LA APLICACION DE REACT EN VS Code:
+
+1. Abrir en VS Code la terminal en Git Bash.
+2. Escribir en la terminal: cd my-app
+3. Luego ingresar el comando: npm start y esperar que la aplicacion empiece a correr.
+IMPORTANTE: Debido a que también node js está corriendo en el puerto 3000, puede que pregunte si desea utilizar otro puerto.
+En este caso debera de responder "Y" (La aplicación REACT comenzará a correr en el puerto localhost:3001)
+
+-- COSAS A MEJORAR:
+1. El CSS quedó un poco (bue... bastante, el footer no es muy footer que digamos) desordenada.
+En un futuro mejorar este aspecto para que sea óptima para el uso de los usuarios.
+2. Mejor manejo de la prolijidad, más que nada en la organización de los archivos en carpetas.
+
+Proyecto BACKEND:
+
+Los cambios que se generaron a nivel BACKEND en esta entrega fueron:
+- Implementar la conexión entre BACKEND y BASE DE DATOS.
+
+-- INSTRUCCIONES PARA LEVANTAR EL SERVIDOR EN VS Code:
+
+1. Nuevamente abrir la terminal con Git Bash.
+2. Ingresar en terminal el comando: cd ..
+3. Ingresar comando: node index.js
+4. Aparecerá mensaje: "App corriendo en el puerto 3000"
+
+-- COSAS A MEJORAR:
+1. Nuevamente mejorar en la prolijidad y organización.
+
+
+Proyecto BASE de DATOS:
+
+-- REQUERIMIENTOS:
+- Tener instalado servidor POSTGRADE SQL en la computadora.
+- Tener esta configuración:
+
+PGHOST= 'localhost'
+PGUSER= 'postgres'
+PGDATABASE= 'cabecinha'
+PGPASSWORD= 5899
+PGPORT= 3000
+
+IMPORTANTE:
+Debido a que GitHub no me permitio subir el archivo .env (this file is hidden)
+se deberá de crear en VS code:
+
+.env > y colocar lo siguiente:
+PGHOST= 'localhost'
+PGUSER= 'postgres'
+PGDATABASE= 'cabecinha'
+PGPASSWORD= 5899
+PGPORT= 3000
+NODE_ENV = "development"
+
+
